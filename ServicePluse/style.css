@@ -1,0 +1,104 @@
+* {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    font-weight: bold;
+}
+
+
+/*-------Header section-------*/
+
+header {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*------- End -------*/
+
+
+/*-------ServicePluse Logo-------*/
+
+.logo {
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+}
+
+.top-pannel {
+    left: 0%;
+    padding: 0;
+    margin: 0;
+    width: 99%;
+    height: 60px;
+}
+
+.pannel {
+    margin: 0%;
+    padding: 0%;
+    width: 100.5%;
+}
+
+
+/*-------main section controlar-------*/
+
+main {
+    border-collapse: collapse;
+    margin-top: 1%;
+    margin: 0%;
+    width: 99%;
+    display: flex;
+}
+
+
+/*-------left section controlar-------*/
+
+.left-pannel {
+    width: 10%;
+    border: 5px solid rgb(230, 225, 225);
+}
+
+
+/*---output containt---*/
+
+.output {
+    background-image: url(../ServicePluse/img/Refresh.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90%;
+    border: 5px solid rgb(230, 225, 225);
+}
+
+iframe {
+    width: 100%;
+    height: 680px;
+}
+
+
+/*footer Copyright*/
+
+.Copyright {
+    display: none;
+    text-align: center;
+    height: 30px;
+    color: rgb(35, 163, 214);
+}
+
+.cpli {
+    font-size: 15px;
+    font-weight: bolder;
+    color: cornflowerblue;
+}
+
+.cpli:hover {
+    color: darkgreen;
+}
+
+
+/*footer Copyright end*/

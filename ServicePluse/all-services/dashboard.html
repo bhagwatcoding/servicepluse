@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<center>
+    <header>
+        <div class="marquee">
+            <marquee behavior="retun" direction="">
+                आप सभी को हमारे तरफ से दुर्गा पूजा की ढेर सारी सुभकामनाऐं
+            </marquee>
+        </div>
+    </header>
+
+    <body>
+        <div class="prewiew" style="max-width:auto; margin-top: 0px;">
+            <img class="mySlides" src="Slider-1.jpg" style="width: 100%; display: none;">
+
+            <img class="mySlides" src="Slider-1.jpg" style="width: 100%; display: block;">
+
+            <img class="mySlides" src="Slider-1.jpg" style="width: 100%; display: none;">
+        </div>
+
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {
+                    myIndex = 1
+                }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 3000); // Change image every 3 seconds
+            }
+        </script>
+
+
+
+
+        <div class="dashboad">
+            <div class="slider">
+                <img src="../img/sl-1.jpg" alt="" class="sli">
+
+            </div>
+            <div class="card">
+                <div class="card-1">
+                    <click>OPEN</click>
+                    <click> ON </click>
+                    <click>SERVICE</click>
+                    <click>RECHARGE</click>
+                    <click>BILL</click>
+                    <click>PAYMENT</click>
+                    <click>GAS</click>
+                    <click>ONLINE</click>
+                    <click>PAY</click>
+                    <click>ROW</click>
+                </div>
+            </div>
+        </div>
+    </body>
+</center>
+
+</html>
+<style type="text/css">
+    * {
+        margin: auto;
+        padding: 0;
+    }
+    
+    body {
+        margin: auto;
+        padding: auto;
+    }
+    
+    header {
+        display: block;
+    }
+    
+    .dashboard {
+        position: relative;
+        margin: 0%;
+    }
+    
+    .marquee {
+        padding: 4px;
+        background-color: rgb(15, 148, 189);
+        color: seashell;
+        font-weight: bold;
+    }
+    
+    .slider {
+        height: 700px;
+        width: 100%;
+    }
+    
+    .sli {
+        border: px solid skyblue;
+        height: 600px;
+        width: 100%;
+    }
+    
+    .card-1 {
+        text-align: center;
+        margin-top: 1%;
+        display: flex;
+    }
+    
+    click {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 1%;
+        color: white;
+        text-align: center;
+        border-radius: 50%;
+        padding: 30px 10px;
+        width: 90%;
+        background-color: slateblue;
+        cursor: pointer;
+    }
+    
+    .card-1 click:hover {
+        background-color: rebeccapurple;
+    }
+</style>
